@@ -23,6 +23,7 @@
     {"name":"obj_static_parent","order":1,"path":"objects/obj_static_parent/obj_static_parent.yy",},
     {"name":"obj_dynamic_parent","order":2,"path":"objects/obj_dynamic_parent/obj_dynamic_parent.yy",},
     {"name":"sprt_space","order":4,"path":"sprites/sprt_space/sprt_space.yy",},
+    {"name":"obj_player4","order":3,"path":"objects/obj_player4/obj_player4.yy",},
     {"name":"sprt_frame","order":5,"path":"sprites/sprt_frame/sprt_frame.yy",},
   ],
 }

@@ -43,6 +43,7 @@
     {"id":{"name":"obj_static_parent","path":"objects/obj_static_parent/obj_static_parent.yy",},},
     {"id":{"name":"obj_dynamic_parent","path":"objects/obj_dynamic_parent/obj_dynamic_parent.yy",},},
     {"id":{"name":"sprt_space","path":"sprites/sprt_space/sprt_space.yy",},},
+    {"id":{"name":"obj_player4","path":"objects/obj_player4/obj_player4.yy",},},
     {"id":{"name":"sprt_frame","path":"sprites/sprt_frame/sprt_frame.yy",},},
     {"id":{"name":"sprt_btn","path":"sprites/sprt_btn/sprt_btn.yy",},},
   ],
