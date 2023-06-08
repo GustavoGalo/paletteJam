@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 if (
 keyboard_check(vk_right)
@@ -30,3 +31,24 @@ if (tilemap_get_at_pixel(tiles, x, bbox_bottom) == 0) {
 	show_debug_message("enter else")
 	gravity = 0;
 }
+=======
+if keyboard_check(vk_backspace)
+{
+	room_restart()	
+}
+
+move = (-keyboard_check(ord("A")) + keyboard_check(ord("D")))
+
+x += move * 4
+
+if move!= 0
+{
+	image_xscale = sign(move)	
+}
+
+
+ 
+
+
+
+>>>>>>> Stashed changes
