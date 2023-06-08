@@ -11,3 +11,4 @@ player_vspeed = 0
 player_jspeed = -5
 Gravidade =0.5
 
+// CORRIGIR BUGS RELACIONADOS A COLISÃO VERTICAL E VELOCIDADE DE SALTO

@@ -46,3 +46,5 @@ if (tilemap_get_at_pixel(tiles, x, bbox_bottom + sign(player_vspeed)) and (keybo
 }
 
 y += player_vspeed
+
+// CORRIGIR BUGS RELACIONADOS A COLISÃO VERTICAL E VELOCIDADE DE SALTO
