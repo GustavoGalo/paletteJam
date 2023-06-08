@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_btn",
+  "name": "obj_static_parent",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Objetos",
+    "path": "folders/Objetos.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprt_btn",
-    "path": "sprites/sprt_btn/sprt_btn.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

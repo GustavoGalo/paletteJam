@@ -36,12 +36,14 @@
   "resources": [
     {"id":{"name":"sprt_run_player","path":"sprites/sprt_run_player/sprt_run_player.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
-    {"id":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"tl_textures","path":"tilesets/tl_textures/tl_textures.yy",},},
     {"id":{"name":"sprt_textures","path":"sprites/sprt_textures/sprt_textures.yy",},},
     {"id":{"name":"sprt_idle_player","path":"sprites/sprt_idle_player/sprt_idle_player.yy",},},
+    {"id":{"name":"obj_static_parent","path":"objects/obj_static_parent/obj_static_parent.yy",},},
+    {"id":{"name":"obj_dynamic_parent","path":"objects/obj_dynamic_parent/obj_dynamic_parent.yy",},},
     {"id":{"name":"sprt_space","path":"sprites/sprt_space/sprt_space.yy",},},
+    {"id":{"name":"sprt_frame","path":"sprites/sprt_frame/sprt_frame.yy",},},
     {"id":{"name":"sprt_btn","path":"sprites/sprt_btn/sprt_btn.yy",},},
   ],
   "RoomOrderNodes": [

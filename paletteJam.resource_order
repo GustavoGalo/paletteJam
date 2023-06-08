@@ -20,6 +20,9 @@
     {"name":"rm_main","order":1,"path":"rooms/rm_main/rm_main.yy",},
     {"name":"sprt_textures","order":1,"path":"sprites/sprt_textures/sprt_textures.yy",},
     {"name":"sprt_idle_player","order":2,"path":"sprites/sprt_idle_player/sprt_idle_player.yy",},
+    {"name":"obj_static_parent","order":1,"path":"objects/obj_static_parent/obj_static_parent.yy",},
+    {"name":"obj_dynamic_parent","order":2,"path":"objects/obj_dynamic_parent/obj_dynamic_parent.yy",},
     {"name":"sprt_space","order":4,"path":"sprites/sprt_space/sprt_space.yy",},
+    {"name":"sprt_frame","order":5,"path":"sprites/sprt_frame/sprt_frame.yy",},
   ],
 }
