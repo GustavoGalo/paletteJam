@@ -57,8 +57,8 @@
   },
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "PLAYER",
+    "path": "folders/Sprites/PLAYER.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

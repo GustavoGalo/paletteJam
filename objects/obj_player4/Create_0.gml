@@ -1,9 +1,6 @@
 
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-
-window_set_size (1280,720)
-
 player_speed = 2.5;
 tiles = layer_tilemap_get_id("tiles");
 bbox_side = 0

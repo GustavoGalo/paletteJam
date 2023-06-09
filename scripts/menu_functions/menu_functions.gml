@@ -16,7 +16,7 @@ function menu(_x, _y, _options, _description = -1) {
 		}
 		width += string_width(hovermarker);
 		
-		height_line = 17;
+		height_line = 24;
 		height = height_line * (options_count + !(description == -1));
 		
 		width_full = width + margin * 2;
