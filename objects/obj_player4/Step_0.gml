@@ -1,4 +1,4 @@
-// Movimentação Horizontal
+ // Movimentação Horizontal
 move = (-keyboard_check(vk_left) + keyboard_check(vk_right))
 
 
@@ -8,7 +8,7 @@ if move!= 0
 	
 } 
 
-//Colisão horizontal
+/*  //Colisão horizontal
 
 bbox_side = move > 0 ? bbox_right : bbox_left
 
@@ -23,10 +23,17 @@ else
 {
 	x+= sign(move); 			
 }
+*/
 
-x += move * player_speed
+if (place_meeting(x + player_speed, y, obj_colisor_teste)) {
+    while (!place_meeting(x + sign(player_speed), y, obj_colisor_teste)) {
+      x += sign(player_speed);
+    }
+   player_speed = 0;
+}
+x += move * player_speed;
 
-// Colisão Vertical
+/*  // Colisão Vertical
 
 player_vspeed = player_vspeed + Gravidade
 
@@ -45,6 +52,10 @@ if (tilemap_get_at_pixel(tiles, x, bbox_bottom + sign(player_vspeed)) and (keybo
 	player_vspeed = player_jspeed
 }
 
+*/
+
 y += player_vspeed
+
+
 
 // CORRIGIR BUGS RELACIONADOS A COLISÃO VERTICAL E VELOCIDADE DE SALTO
