@@ -18,6 +18,8 @@
     {"name":"GUI","order":17,"path":"folders/Sprites/GUI.yy",},
     {"name":"HUD","order":7,"path":"folders/Sprites/HUD.yy",},
     {"name":"PLAYER","order":18,"path":"folders/Sprites/PLAYER.yy",},
+    {"name":"PHASES","order":5,"path":"folders/Cenas/PHASES.yy",},
+    {"name":"FEAR","order":1,"path":"folders/Cenas/PHASES/FEAR.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sprt_run_player","order":1,"path":"sprites/sprt_run_player/sprt_run_player.yy",},
@@ -30,6 +32,7 @@
     {"name":"sprt_textures","order":1,"path":"sprites/sprt_textures/sprt_textures.yy",},
     {"name":"obj_colisor_teste","order":5,"path":"objects/obj_colisor_teste/obj_colisor_teste.yy",},
     {"name":"sprt_idle_player","order":2,"path":"sprites/sprt_idle_player/sprt_idle_player.yy",},
+    {"name":"tl_collision","order":1,"path":"tilesets/tl_collision/tl_collision.yy",},
     {"name":"sprt_space","order":4,"path":"sprites/sprt_space/sprt_space.yy",},
     {"name":"rm_test","order":3,"path":"rooms/rm_test/rm_test.yy",},
     {"name":"rm_menu","order":2,"path":"rooms/rm_menu/rm_menu.yy",},

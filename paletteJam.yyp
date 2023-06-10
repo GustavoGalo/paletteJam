@@ -30,6 +30,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GUI","folderPath":"folders/Sprites/GUI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"HUD","folderPath":"folders/Sprites/HUD.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PLAYER","folderPath":"folders/Sprites/PLAYER.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PHASES","folderPath":"folders/Cenas/PHASES.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"FEAR","folderPath":"folders/Cenas/PHASES/FEAR.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -52,6 +54,7 @@
     {"id":{"name":"sprt_textures","path":"sprites/sprt_textures/sprt_textures.yy",},},
     {"id":{"name":"obj_colisor_teste","path":"objects/obj_colisor_teste/obj_colisor_teste.yy",},},
     {"id":{"name":"sprt_idle_player","path":"sprites/sprt_idle_player/sprt_idle_player.yy",},},
+    {"id":{"name":"tl_collision","path":"tilesets/tl_collision/tl_collision.yy",},},
     {"id":{"name":"sprt_space","path":"sprites/sprt_space/sprt_space.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"Starry_background____Layer_02___Stars","path":"sprites/Starry_background____Layer_02___Stars/Starry_background____Layer_02___Stars.yy",},},
@@ -64,10 +67,10 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"Test_Room","path":"rooms/Test_Room/Test_Room.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
-    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
