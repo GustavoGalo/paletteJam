@@ -10,3 +10,5 @@ Gravidade =0.5
 Pulos = 2
 
 // CORRIGIR BUGS RELACIONADOS A COLISÃO VERTICAL E VELOCIDADE DE SALTO
+
+death_area_tiles = layer_tilemap_get_id("death_area");
