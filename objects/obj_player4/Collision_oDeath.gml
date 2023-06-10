@@ -1,4 +1,10 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
 
-instance_destroy()
+if (lifes > 0) {
+	load_checkpoint();
+	lifes--;
+}
+else {
+	load_checkpoint();
+	file_delete(fname_checkpoint);
+	lifes = 5;
+}

@@ -8,7 +8,28 @@ player_vspeed = 0
 player_jspeed = -5
 Gravidade =0.5
 Pulos = 2
+lifes = 5;
+fname_checkpoint = "checkpoint.ini";
 
 // CORRIGIR BUGS RELACIONADOS A COLISÃO VERTICAL E VELOCIDADE DE SALTO
 
-death_area_tiles = layer_tilemap_get_id("death_area");
+
+function load_checkpoint() {
+	if (file_exists(fname_checkpoint)) {
+	    ini_open("checkpoint.ini");
+	    x = ini_read_real("player", "x", x);
+	    y = ini_read_real("player", "y", y);
+	    ini_close();
+	}
+}
+
+function checkpoint() {
+	ini_open(fname_checkpoint);
+	ini_write_real("player", "x", obj_player4.x);
+	ini_write_real("player", "y", obj_player4.y);
+	ini_close();
+}
+
+function reset_checkpoint() {
+	
+}
