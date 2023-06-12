@@ -21,7 +21,7 @@ collision_tilemap = layer_tilemap_get_id("Collision");
 
 dash_Speed = 10; 
 dash_Duration = 10; 
-dash_Cooldown = 60; 
+dash_Cooldown = 200; 
 dash_Timer = 0;
 dash_Available = true;
 #endregion

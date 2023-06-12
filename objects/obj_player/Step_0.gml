@@ -77,6 +77,17 @@ if (!can_jump) {
 	dash_Timer = dash_Duration
 	dash_Available = false
  }
+if hspeed != 0
+ {
+	with instance_create_depth(x,y,depth+1,obj_trail)
+	{
+		sprite_index = other.sprite_index;
+		image_xscale = other.image_xscale;
+		image_blend = c_fuchsia
+		image_alpha = 0.7
+	}
+ }
+ 
  
  if (dash_Timer != 0)
  {
@@ -97,7 +108,7 @@ if (dash_Timer == 0)
     if dash_Cooldown == 0
     {
         dash_Available = true
-        dash_Cooldown = 60
+        dash_Cooldown = 200
     }
  }
  #endregion

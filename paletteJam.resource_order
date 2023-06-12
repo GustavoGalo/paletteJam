@@ -53,6 +53,7 @@
     {"name":"Sprite12","order":6,"path":"sprites/Sprite12/Sprite12.yy",},
     {"name":"Starry_background____Layer_01___Void","order":2,"path":"sprites/Starry_background____Layer_01___Void/Starry_background____Layer_01___Void.yy",},
     {"name":"obj_HUD","order":8,"path":"objects/obj_HUD/obj_HUD.yy",},
+    {"name":"obj_trail","order":11,"path":"objects/obj_trail/obj_trail.yy",},
     {"name":"obj_player4","order":3,"path":"objects/obj_player4/obj_player4.yy",},
     {"name":"obj_checkpoint","order":7,"path":"objects/obj_checkpoint/obj_checkpoint.yy",},
     {"name":"Sprite15","order":8,"path":"sprites/Sprite15/Sprite15.yy",},

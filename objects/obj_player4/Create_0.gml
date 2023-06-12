@@ -1,19 +1,17 @@
-
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+#region VARIAVEIS
 player_speed = 2.5;
-layer_tiles = layer_get_id("tiles")
+layer_tiles = layer_get_id("tiles");
 tiles = layer_tilemap_get_id(layer_tiles);
-player_vspeed = 0
-player_jspeed = -5
-Gravidade =0.5
-Pulos = 2
+player_vspeed = 0;
+player_jspeed = -25;
+Gravidade = 0.5;
+Pulos = 2;
 lifes = 5;
 fname_checkpoint = "checkpoint.ini";
 
-// CORRIGIR BUGS RELACIONADOS A COLISÃO VERTICAL E VELOCIDADE DE SALTO
+#endregion
 
-
+#region CHECKPOINTS
 function load_checkpoint() {
 	if (file_exists(fname_checkpoint)) {
 	    ini_open("checkpoint.ini");
@@ -30,6 +28,13 @@ function checkpoint() {
 	ini_close();
 }
 
-function reset_checkpoint() {
+// function reset_checkpoint() {
 	
-}
+//}
+#endregion
+
+#region STATE MACHINE - DASH
+
+
+
+#endregion

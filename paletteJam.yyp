@@ -78,6 +78,7 @@
     {"id":{"name":"Starry_background____Layer_01___Void","path":"sprites/Starry_background____Layer_01___Void/Starry_background____Layer_01___Void.yy",},},
     {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},},
     {"id":{"name":"rFearLvl1","path":"rooms/rFearLvl1/rFearLvl1.yy",},},
+    {"id":{"name":"obj_trail","path":"objects/obj_trail/obj_trail.yy",},},
     {"id":{"name":"obj_player4","path":"objects/obj_player4/obj_player4.yy",},},
     {"id":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
