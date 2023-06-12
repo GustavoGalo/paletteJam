@@ -9,7 +9,9 @@ enum states {
 
 #region SETTING VARIABLES
 player_speed = 2;
+
 gravity_aceleration = 0.25;
+
 player_state = states.idle;
 jump_speed = -5;
 can_jump = false;

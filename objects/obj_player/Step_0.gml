@@ -36,6 +36,7 @@ else {
 }
 #endregion
 #region JUMP & JUMP COLLISION
+/*
 if (tilemap_get_at_pixel(collision_tilemap, bbox_left, bbox_top + jump_speed) == 0 &&
 	tilemap_get_at_pixel(collision_tilemap, bbox_right, bbox_top + jump_speed) == 0
 	) {
@@ -44,24 +45,22 @@ if (tilemap_get_at_pixel(collision_tilemap, bbox_left, bbox_top + jump_speed) ==
 else {
 	can_jump = false;
 }
+*/
 
 if (key_space && can_jump) {
 	y_speed = jump_speed;
 	can_jump = false;
 }
 
-if (!can_jump) {
+if (!can_jump && y_speed < 0) {
 	if (
 		tilemap_get_at_pixel(collision_tilemap, bbox_left, bbox_top + y_speed) != 0 ||
-		tilemap_get_at_pixel(collision_tilemap, bbox_left, bbox_top + y_speed) != 0
+		tilemap_get_at_pixel(collision_tilemap, bbox_right, bbox_top + y_speed) != 0
 	) {
-		for (var i = 0; i < y_speed; i++) {
-			if (tilemap_get_at_pixel(collision_tilemap, bbox_left, bbox_top + 1) == 0 ||
-				tilemap_get_at_pixel(collision_tilemap, bbox_right, bbox_top + 1) == 0) {
-				y++;
-				y_speed++;
-			}
-		}
+		var dif = (bbox_top + y_speed) % TILE_SIZE;
+		var test = (bbox_top + y_speed - dif) % TILE_SIZE;
+		y += test *  sign(y_speed);
+		y_speed = 0;
 
 	}
 }
@@ -71,7 +70,6 @@ if (!can_jump) {
  
  if (dash_Available = true) && (keyboard_check_pressed(ord("F")))
  {
-	show_debug_message("tentei dar dash")
 	dash_Direction = sign(x_speed)
 	hspeed = dash_Direction * dash_Speed
 	dash_Timer = dash_Duration
